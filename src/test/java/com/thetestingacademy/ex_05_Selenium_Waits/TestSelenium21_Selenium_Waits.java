@@ -17,7 +17,6 @@ public class TestSelenium21_Selenium_Waits {
     public void verify_print() {
 
         WebDriver driver = new EdgeDriver();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get("https://app.vwo.com");
 
 
