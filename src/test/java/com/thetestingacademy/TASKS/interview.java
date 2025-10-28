@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class interview {
+public class   interview {
     @Test
     public void techlist() {
         WebDriver driver = new ChromeDriver();
